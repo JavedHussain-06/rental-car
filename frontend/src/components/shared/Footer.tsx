@@ -45,7 +45,7 @@ export function Footer() {
             </p>
             <div className="mt-5 flex flex-col gap-2 text-sm text-slate-600">
               <span className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-blue-600" /> +91 98765 43210
+                <Phone className="h-4 w-4 text-blue-600" /> +91 9006412619
               </span>
               <span className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-blue-600" /> contact@pixelcypher.com

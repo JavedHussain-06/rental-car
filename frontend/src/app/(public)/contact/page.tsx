@@ -20,7 +20,7 @@ export default function ContactPage() {
             <Phone className="h-6 w-6" />
           </div>
           <h3 className="font-semibold text-slate-900">Phone</h3>
-          <p className="mt-1 text-sm text-slate-500">+91 98765 43210</p>
+          <p className="mt-1 text-sm text-slate-500">+91 9006412619</p>
         </div>
         
         <div className="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 shadow-sm text-center">
