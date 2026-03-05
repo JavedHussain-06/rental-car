@@ -1,0 +1,38 @@
+`next lint` is deprecated and will be removed in Next.js 16.
+For new projects, use create-next-app to choose your preferred linter.
+For existing projects, migrate to the ESLint CLI:
+npx @next/codemod@canary next-lint-to-eslint-cli .
+
+
+./src/app/(public)/book/page.tsx
+11:9  Warning: 'router' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/layout.tsx
+29:9  Warning: Custom fonts not added in `pages/_document.js` will only load for a single page. This is discouraged. See: https://nextjs.org/docs/messages/no-page-custom-font  @next/next/no-page-custom-font
+
+./src/components/admin/CarTable.tsx
+7:10  Warning: 'useVehicles' is defined but never used.  @typescript-eslint/no-unused-vars
+14:17  Warning: 'total' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+30:6  Warning: React Hook useEffect has a missing dependency: 'loadCars'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+103:29  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/components/admin/FilterBar.tsx
+5:10  Warning: 'useCallback' is defined but never used.  @typescript-eslint/no-unused-vars
+6:10  Warning: 'useDebounce' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/admin/ImageUploader.tsx
+60:15  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/components/cars/CarCard.tsx
+27:9  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/hooks/use-toast.ts
+21:7  Warning: 'actionTypes' is assigned a value but only used as a type.  @typescript-eslint/no-unused-vars
+
+./src/services/car.service.ts
+8:43  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+9:51  Warning: '_' is defined but never used.  @typescript-eslint/no-unused-vars
+17:18  Warning: '_' is defined but never used.  @typescript-eslint/no-unused-vars
+99:18  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules

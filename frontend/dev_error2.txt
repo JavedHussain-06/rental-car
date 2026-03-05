@@ -1,0 +1,100 @@
+
+> car-rental-frontend@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.5.12
+   - Local:        http://localhost:3000
+   - Network:      http://10.49.150.156:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.5s
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 5s (659 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /admin 200 in 5548ms
+ GET /admin 200 in 122ms
+ GET /admin 200 in 142ms
+ ○ Compiling /admin/cars ...
+ ✓ Compiled /admin/cars in 1271ms (730 modules)
+ GET /admin/cars 200 in 1513ms
+ GET /admin/cars 200 in 71ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1605896559795-3bc6775677ac?auto=format&fit=crop&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1549557492-3511eb4bb014?auto=format&fit=crop&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1550462000-8bfafe7d6438?auto=format&fit=crop&q=80 404
+ ✓ Compiled /_not-found in 325ms (717 modules)
+ GET /admin/bookings 404 in 499ms
+ GET /admin/bookings 404 in 226ms
+ GET /admin/cars 200 in 109ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1550462000-8bfafe7d6438?auto=format&fit=crop&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1605896559795-3bc6775677ac?auto=format&fit=crop&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1549557492-3511eb4bb014?auto=format&fit=crop&q=80 404
+ GET /admin/users 404 in 29ms
+ GET /admin/users 404 in 52ms
+ GET /admin/cars 200 in 82ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1550462000-8bfafe7d6438?auto=format&fit=crop&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1605896559795-3bc6775677ac?auto=format&fit=crop&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1549557492-3511eb4bb014?auto=format&fit=crop&q=80 404
+ GET /admin/settings 404 in 26ms
+ GET /admin/settings 404 in 54ms
+ GET /admin/cars 200 in 85ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1549557492-3511eb4bb014?auto=format&fit=crop&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1605896559795-3bc6775677ac?auto=format&fit=crop&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1550462000-8bfafe7d6438?auto=format&fit=crop&q=80 404
+ GET /admin 200 in 44ms
+ GET /admin/cars 200 in 53ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1549557492-3511eb4bb014?auto=format&fit=crop&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1605896559795-3bc6775677ac?auto=format&fit=crop&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1550462000-8bfafe7d6438?auto=format&fit=crop&q=80 404
+ ○ Compiling /admin/cars/[id]/edit ...
+ ✓ Compiled /admin/cars/[id]/edit in 1043ms (754 modules)
+ GET /admin/cars/car-008/edit 200 in 2047ms
+ GET /admin/cars/car-008/edit 200 in 67ms
+ GET /admin 200 in 48ms
+ GET /admin/bookings 404 in 40ms
+ GET /admin/bookings 404 in 148ms
+ GET /admin 200 in 110ms
+ ✓ Compiled in 422ms (307 modules)
+ ✓ Compiled in 416ms (307 modules)
+ GET /admin 200 in 429ms
+ GET /admin 200 in 81ms
+ ✓ Compiled in 235ms (307 modules)
+ ✓ Compiled in 261ms (307 modules)
+ GET /admin 200 in 271ms
+ GET /admin 200 in 48ms
+ ✓ Compiled in 251ms (307 modules)
+ ✓ Compiled in 253ms (307 modules)
+ GET /admin 200 in 304ms
+ GET /admin 200 in 57ms
+ ✓ Compiled in 236ms (307 modules)
+ ✓ Compiled in 394ms (307 modules)
+ GET /admin 200 in 404ms
+ GET /admin 200 in 54ms
+ ✓ Compiled in 371ms (307 modules)
+ GET /admin 200 in 72ms
+ ✓ Compiled in 950ms (792 modules)
+ GET /admin 200 in 178ms
+ ✓ Compiled in 1172ms (792 modules)
+ GET /admin 200 in 1040ms
+ GET /admin 200 in 86ms
+ GET /admin 200 in 73ms
+ ✓ Compiled in 1570ms (792 modules)
+ ✓ Compiled in 1055ms (792 modules)
+ ✓ Compiled in 989ms (792 modules)
+ ○ Compiling /admin/users ...
+ ✓ Compiled /admin/users in 899ms (793 modules)
+ GET /admin/users 200 in 1057ms
+ GET /admin/users 200 in 70ms
+ GET /admin/users 200 in 74ms
+ GET /admin/users 200 in 106ms
+ GET /admin/users 200 in 54ms
+ ⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+   ▲ Next.js 15.5.12
+   - Local:        http://localhost:3000
+   - Network:      http://10.49.150.156:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+[?25h

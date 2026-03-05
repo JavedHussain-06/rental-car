@@ -1,0 +1,74 @@
+
+> car-rental-frontend@1.0.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use by process 15184, using available port 3002 instead.
+   ▲ Next.js 15.5.12
+   - Local:        http://localhost:3002
+   - Network:      http://10.49.150.177:3002
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.7s
+ ○ Compiling /cars ...
+ ⨯ src\app\(admin)\cars\page.tsx
+You cannot have two parallel pages that resolve to the same path. Please check /(admin)/cars/page and /(public)/cars/page. Refer to the route group docs for more information: https://nextjs.org/docs/app/building-your-application/routing/route-groups
+ ⨯ src\app\(admin)\cars\page.tsx
+You cannot have two parallel pages that resolve to the same path. Please check /(admin)/cars/page and /(public)/cars/page. Refer to the route group docs for more information: https://nextjs.org/docs/app/building-your-application/routing/route-groups
+ ⨯ src\app\(admin)\cars\page.tsx
+You cannot have two parallel pages that resolve to the same path. Please check /(admin)/cars/page and /(public)/cars/page. Refer to the route group docs for more information: https://nextjs.org/docs/app/building-your-application/routing/route-groups
+ ⨯ src\app\(admin)\cars\page.tsx
+You cannot have two parallel pages that resolve to the same path. Please check /(admin)/cars/page and /(public)/cars/page. Refer to the route group docs for more information: https://nextjs.org/docs/app/building-your-application/routing/route-groups
+ ✓ Compiled / in 1111ms (802 modules)
+ ✓ Compiled in 552ms (802 modules)
+ ✓ Compiled in 367ms (802 modules)
+ ✓ Compiled in 394ms (802 modules)
+ ✓ Compiled in 396ms (802 modules)
+ ✓ Compiled in 560ms (802 modules)
+ ✓ Compiled in 391ms (802 modules)
+ ✓ Compiled in 506ms (802 modules)
+ ✓ Compiled in 404ms (802 modules)
+ ✓ Compiled in 1971ms (910 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\server-development\3.pack.gz_' -> 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\server-development\3.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 693ms (802 modules)
+ ✓ Compiled in 825ms (802 modules)
+ ✓ Compiled in 337ms (802 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 1267ms (896 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 568ms (802 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 553ms (802 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 784ms (802 modules)
+ ✓ Compiled in 535ms (802 modules)
+ ✓ Compiled in 466ms (802 modules)
+ ✓ Compiled in 462ms (802 modules)
+ ✓ Compiled in 451ms (802 modules)
+ ✓ Compiled in 508ms (802 modules)
+ ✓ Compiled in 493ms (802 modules)
+ ✓ Compiled in 451ms (802 modules)
+ ✓ Compiled in 957ms (802 modules)
+ ✓ Compiled in 950ms (802 modules)
+ ✓ Compiled in 800ms (802 modules)
+ ✓ Compiled in 473ms (802 modules)
+ ✓ Compiled in 413ms (802 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\3.pack.gz_' -> 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\3.pack.gz'
+ ✓ Compiled in 2.9s (910 modules)
+ ✓ Compiled in 1005ms (802 modules)
+ ✓ Compiled in 503ms (802 modules)
+ ✓ Compiled in 411ms (802 modules)
+ ✓ Compiled in 351ms (802 modules)
+ ✓ Compiled in 1083ms (802 modules)
+ ✓ Compiled in 594ms (802 modules)
+ ✓ Compiled in 417ms (802 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\5.pack.gz_' -> 'C:\Users\javed\Desktop\car-rental\frontend\.next\cache\webpack\client-development\5.pack.gz'
+ ⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+   ▲ Next.js 15.5.12
+   - Local:        http://localhost:3002
+   - Network:      http://10.49.150.177:3002
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.5s

@@ -1,0 +1,14 @@
+   ▲ Next.js 15.5.12
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+Failed to compile.
+
+src\app\(admin)\cars\page.tsx
+You cannot have two parallel pages that resolve to the same path. Please check /(admin)/cars/page and /(public)/cars/page. Refer to the route group docs for more information: https://nextjs.org/docs/app/building-your-application/routing/route-groups
+
+src\app\(public)\cars\page.tsx
+You cannot have two parallel pages that resolve to the same path. Please check /(admin)/cars/page and /(public)/cars/page. Refer to the route group docs for more information: https://nextjs.org/docs/app/building-your-application/routing/route-groups
+
+
+> Build failed because of webpack errors
